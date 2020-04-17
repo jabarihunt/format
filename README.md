@@ -5,8 +5,6 @@ This class was developed to hold static formatting helper methods as outlined be
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
 - PHP 7.1 or greater (due to type hinting)
@@ -39,7 +37,7 @@ require('/path/to/Format.php')
 
 Credit for the original method goes to [Armand Niculescu](https://www.media-division.com/correct-name-capitalization-in-php/).
 
-This method correctly capitalizes name when there are prefixes & suffixes, apostrophes, name parts that shouldn't be capitalized, and in other scenarios where using something like `ucwords(strtolower($str))` doesn't work.
+This method correctly capitalizes names when there are prefixes & suffixes, apostrophes, name parts that shouldn't be capitalized, and in other scenarios where using something like `ucwords(strtolower($str))` doesn't work.
 
 Examples:
 
