@@ -43,19 +43,19 @@ This method correctly capitalizes name when there are prefixes & suffixes, apost
 
 Examples:
 
-| $name                    |  ucwords(strtolower($name)) | Format::name($name)      |
-|--------------------------|-----------------------------|--------------------------|
-| michael o’carrol         | Michael O’carrol            | Michael O’Carrol         |
-| lucas l’amour            | Lucas L’amour               | Lucas l’Amour            |
-| george d’onofrio         | George D’onofrio            | George d’Onofrio         |
-| william stanley iii      | William Stanley Iii         | William Stanley III      |
-| UNITED STATES OF AMERICA | United States Of America    | United States of America |
-| t. von lieres und wilkau | T. Von Lieres Und Wilkau    | T. von Lieres und Wilkau |
-| paul van der knaap       | Paul Van Der Knaap          | Paul van der Knaap       |
-| jean-luc picard          | Jean-luc Picard             | Jean-Luc Picard          |
-| JOHN MCLAREN             | John Mclaren                | John McLaren             |
-| hENRIC vIII              | Henric Viii                 | Henric VIII              |
-| VAsco da GAma            | Vasco Da Gama               | Vasco da Gama            |
+| `$name`                  |  `ucwords(strtolower($name))` | `Format::name($name)`    |
+|--------------------------|-------------------------------|--------------------------|
+| michael o’carrol         | Michael O’carrol              | Michael O’Carrol         |
+| lucas l’amour            | Lucas L’amour                 | Lucas l’Amour            |
+| george d’onofrio         | George D’onofrio              | George d’Onofrio         |
+| william stanley iii      | William Stanley Iii           | William Stanley III      |
+| UNITED STATES OF AMERICA | United States Of America      | United States of America |
+| t. von lieres und wilkau | T. Von Lieres Und Wilkau      | T. von Lieres und Wilkau |
+| paul van der knaap       | Paul Van Der Knaap            | Paul van der Knaap       |
+| jean-luc picard          | Jean-luc Picard               | Jean-Luc Picard          |
+| JOHN MCLAREN             | John Mclaren                  | John McLaren             |
+| hENRIC vIII              | Henric Viii                   | Henric VIII              |
+| VAsco da GAma            | Vasco Da Gama                 | Vasco da Gama            |
 
 ## CONTRIBUTING
 
