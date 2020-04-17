@@ -1,0 +1,24 @@
+{
+    "name": "jabarihunt/format",
+    "type": "library",
+    "description": "Class to hold static formatting helper methods.",
+    "keywords": ["format", "name"],
+    "homepage": "https://github.com/jabarihunt/format",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jabari J. Hunt",
+            "email": "jabari@jabari.net",
+            "homepage": "http://www.jabari.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "jabarihunt\\": "src/"
+        }
+    }
+}
